@@ -22,7 +22,7 @@
  - [x] WebCam
  - [x] SDHC CardReader
  - [x] Fn Brightness Keys
- - [ ] I2C Touchpad 
+ - [X] I2C Touchpad (Polling Mode)
  - [x] Usb (Built In)
  - [ ] Sleep From (Fn Key)
  - [ ] Sleep From (Lid)
