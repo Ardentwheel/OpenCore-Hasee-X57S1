@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17G6030</string>
+	<string>18G6020</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.9.2</string>
+	<string>2.9.4</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,11 +25,11 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.9.2</string>
+	<string>2.9.4</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>10B61</string>
+	<string>11B53</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -37,9 +37,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.11</string>
 	<key>DTXcode</key>
-	<string>1010</string>
+	<string>1120</string>
 	<key>DTXcodeBuild</key>
-	<string>10B61</string>
+	<string>11B53</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>VoodooHDA</key>
@@ -57,7 +57,7 @@
 			<key>IOMatchCategory</key>
 			<string>VoodooHDADevice</string>
 			<key>IOPCIClassMatch</key>
-			<string>0x04020000&amp;0xfffe0000</string>
+			<string>0x04000000&amp;0xfffc0000</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>IOUserClientClass</key>
@@ -130,6 +130,8 @@
 			<integer>0</integer>
 		</dict>
 	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.11</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IOAudioFamily</key>

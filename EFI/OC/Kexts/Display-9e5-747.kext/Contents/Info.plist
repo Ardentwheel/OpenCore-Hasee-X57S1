@@ -37,7 +37,7 @@
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>DisplayProductName</key>
-				<string>显示器</string>
+				<string>Display</string>
 				<key>IODisplayEDID</key>
 				<data>
 				AP///////wAJ5XycAAAAABIbAQSlIhNgAm+xp1VMniUM
@@ -47,9 +47,6 @@
 				</data>
 				<key>scale-resolutions</key>
 				<array>
-					<data>
-					AAAQAAAACQAA
-					</data>
 					<data>
 					AAAPAAAACHAA
 					</data>
@@ -63,13 +60,7 @@
 					AAAKAAAABaAA
 					</data>
 					<data>
-					AAAIAAAABIAAAAABACAAAA==
-					</data>
-					<data>
-					AAAHgAAABDgAAAAB
-					</data>
-					<data>
-					AAAQAAAACQAAAAAJAKAAAA==
+					AAAIAAAABIAA
 					</data>
 					<data>
 					AAAKAAAABaAAAAABACAAAA==

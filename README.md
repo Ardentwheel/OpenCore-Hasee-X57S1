@@ -1,6 +1,6 @@
 # OpenCore For Hasee KingBook X57S1
 
- - OpenCore 0.6.0
+ - OpenCore 0.6.1
  - Intel Core i7-1065G7
  - Hasee HINS02   ( Intel 495 Series Chipset, Intel Ice Point-LP, Intel Ice Lake-U )
  - Memory 8 GB DDR4-2666 x2
