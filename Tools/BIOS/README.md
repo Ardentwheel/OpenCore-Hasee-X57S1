@@ -33,7 +33,7 @@
     
   ![Original-img]
     
-  #### 3. Section To Hex Chart
+  #### 3. Section Chart To Hex
 
 |  Hex  | Section |
 | ----- | ------- |
