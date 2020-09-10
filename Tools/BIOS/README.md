@@ -22,7 +22,7 @@
     
   #### 2. Search `AMITSE`, And find the on with 'PE32 image section'
   
-    ![UEFITool-img]
+  ![UEFITool-img]
 
   #### 3. Extract it’s Body
 
@@ -31,7 +31,7 @@
     
   #### 2. Find `4A10 597B 0DC0 5841 87FF F04D 6396 A915`
     
-    ![Original-img]
+  ![Original-img]
     
   #### 3. Section To Hex Chart
 
@@ -55,7 +55,7 @@
 ## [Merge](#merge)
   #### Back to UEFITool And Replace Body
 
-    ![Replace-img]
+  ![Replace-img]
 
 ## [Flash BIOS](#flash-bios)
 ```
