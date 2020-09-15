@@ -13,7 +13,7 @@
 
 ### Functionality
  - [x] CPU Speedstep (XCPM)
- - [ ] Audio
+ - [x] Audio (Only right channel worked, requier more work )
  - [ ] HDMI (Video And Audio)
  - [x] Battery Management
  - [x] Backlight
@@ -22,7 +22,7 @@
  - [x] WebCam
  - [x] SDHC CardReader
  - [x] Fn Brightness Keys
- - [X] I2C Touchpad (Polling Mode)
+ - [x] I2C Touchpad (Polling Mode) (IPIC IRQ 2 Disable)
  - [x] Usb (Built In)
  - [ ] Sleep From (Fn Key)
  - [ ] Sleep From (Lid)
@@ -38,6 +38,10 @@
  3. Copy EFI folder to ESP/EFI Partition in HDD/SSD disk.
  4. https://github.com/zxystd/HeliPort
 
+
+#### A Lesson
+ > DSDT order matters, A LOT!!!!
+ Try all the layout, ever build my own layout-id, from HPET Fix, HPAS rename, to imitate  Cannon Point-LP Audio Controller. Try everythink, anythink, still no sound. so i went out to other work, i reorder the DSDT loading sequence, then I'm reboot to test, it magically has sound!!! I just wanna cry!
 
 ### Tools
   - [HeliPort]
