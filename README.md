@@ -13,7 +13,7 @@
 
 ### Functionality
  - [x] CPU Speedstep (XCPM)
- - [x] Audio (Only right channel worked, requier more work )
+ - [x] Audio (Only right channel worked, reqiuer more work )
  - [ ] HDMI (Video And Audio)
  - [x] Battery Management
  - [x] Backlight
@@ -37,7 +37,8 @@
  2. Install Mac OS X.
  3. Copy EFI folder to ESP/EFI Partition in HDD/SSD disk.
  4. https://github.com/zxystd/HeliPort
-
+ 5. [Modify BIOS For Advanced Setting] (Possible Collapse BIOS, IF YOU NOT DO IT RIGHT)
+ 6. Disable CFG Lock, Change DVMT to 128MB, And Disable CFG Fix in config.plist
 
 #### A Lesson
  > DSDT order matters, A LOT!!!!
