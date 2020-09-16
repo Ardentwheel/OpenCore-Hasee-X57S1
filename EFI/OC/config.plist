@@ -689,7 +689,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>DAAAAA==</data>
+				<data>EgAAAA==</data>
 				<key>device-id</key>
 				<data>yJ0AAA==</data>
 			</dict>

@@ -34,16 +34,16 @@ Modified Verbs in One Line: 01271c30 01271d00 01271ea6 01271f90 01371c00 01371d0
 
 Node     PinDefault        Description
 -----------------------------------------------
-0x12     0x90a60130        Mic at Int N/A      
-0x13     0x40000000        Line Out at Ext N/A 
-0x14     0x90170110        Speaker at Int N/A         [EAPD]
-0x18     0x411111f0        Speaker at Ext Rear 
-0x19     0x02a19040        Mic at Ext Front    
-0x1a     0x411111f0        Speaker at Ext Rear    
-0x1b     0x411111f0        Speaker at Ext Rear        [EAPD]
-0x1d     0x4067b945        Modem Line at Ext N/A
-0x1e     0x411111f0        Speaker at Ext Rear 
-0x21     0x02214020        HP Out at Ext Front        [EAPD]
+0x12     0x90a60130        [Fixed] Mic at Int       
+0x13     0x40000000        [N/A] Line Out at Ext 
+0x14     0x90170110        [Fixed] Speaker at Int     [EAPD]
+0x18     0x411111f0        [N/A] Speaker at Ext Rear 
+0x19     0x02a19040        [Jack] Mic at Ext Front    
+0x1a     0x411111f0        [N/A] Speaker at Ext Rear    
+0x1b     0x411111f0        [N/A] Speaker at Ext Rear  [EAPD]
+0x1d     0x4067b945        [N/A] Modem Line at Ext
+0x1e     0x411111f0        [N/A] Speaker at Ext Rear 
+0x21     0x02214020        [Jack] HP Out at Ext Front [EAPD]
 
 
 PinDefault
@@ -56,6 +56,7 @@ Node     c  d  e  f        Description
 18       f0 11 11 41       [N/A] Speaker at Ext Rear 
 19       40 90 a1 02       [Jack] Mic at Ext Front    
 1a       f0 11 11 41       [N/A] Speaker at Ext Rear    
+1b       f0 11 11 41       [N/A] Speaker at Ext Rear  [EAPD]
 1d       45 b9 67 40       [N/A] Modem Line at Ext
 1e       f0 11 11 41       [N/A] Speaker at Ext Rear 
 21       20 40 21 02       [Jack] HP Out at Ext Front [EAPD]
@@ -71,26 +72,44 @@ Node     c  d  e  f        Description
 18       f0 00 00 40       [N/A] Speaker at Ext Rear 
 19       40 90 ab 02       [Jack] Mic at Ext Front    
 1a       f0 00 00 40       [N/A] Speaker at Ext Rear    
+1b       f0 11 11 41       [N/A] Speaker at Ext Rear  [EAPD] 01B70C02
 1d       f0 00 00 40       [N/A] Modem Line at Ext
 1e       f0 00 00 40       [N/A] Speaker at Ext Rear 
 21       20 40 2b 02       [Jack] HP Out at Ext Front [EAPD] 02170c02
 
-01271c30 01271d01 01271ea6 01271f90 
-01371cf0 01371d00 01371e00 01371f40 
-01471c10 01471d01 01471e17 01471f90 01470c02 
-01871cf0 01871d00 01871e00 01871f40 
-01971c40 01971d90 01971e8b 01971f02 
-01a71cf0 01a71d00 01a71e00 01a71f40 
-01d71cf0 01d71d00 01d71e00 01d71f40 
-01e71cf0 01e71d00 01e71e00 01e71f40 
-02171c20 02171d40 02171e2b 02171f02 02170c02
+01271C30 01271C01 01271CA6 01271C90 
+01371CF0 01371D00 01371E00 01371F40 
+01471C10 01471D01 01471E17 01471F90 01470C02 
+01871CF0 01871D00 01871E00 01871F40 
+01971C40 01971D90 01971E8B 01971F02 
+01A71CF0 01A71D00 01A71E00 01A71F40 
+01B71C12 01B71D01 01B71E17 01B71F90 01B70C02 
+01D71CF0 01D71D00 01D71E00 01D71F40 
+01E71CF0 01E71D00 01E71E00 01E71F40 
+02171C20 02171D40 02171E2B 02171F02 02170C02
+
+Reorder
+-----------------------------------------------
+01471C10 01471D01 01471E17 01471F90 01470C02 
+01B71C12 01B71D01 01B71E17 01B71F90 01B70C02 
+02171C20 02171D40 02171E2B 02171F02 02170C02 
+01271C30 01271C01 01271CA6 01271C90 
+01971C40 01971D90 01971E8B 01971F02 
+01371CF0 01371D00 01371E00 01371F40 
+01871CF0 01871D00 01871E00 01871F40 
+01A71CF0 01A71D00 01A71E00 01A71F40 
+01D71CF0 01D71D00 01D71E00 01D71F40 
+01E71CF0 01E71D00 01E71E00 01E71F40
+
+
+01471C10 01471D01 01471E17 01471F90 01470C02 01B71C12 01B71D01 01B71E17 01B71F90 01B70C02 02171C20 02171D40 02171E2B 02171F02 02170C02 01271C30 01271C01 01271CA6 01271C90 01971C40 01971D90 01971E8B 01971F02 01371CF0 01371D00 01371E00 01371F40 01871CF0 01871D00 01871E00 01871F40 01A71CF0 01A71D00 01A71E00 01A71F40 01D71CF0 01D71D00 01D71E00 01D71F40 01E71CF0 01E71D00 01E71E00 01E71F40
 
 
 Node   10进制    Description      Path
 ------------------------------------------------
-0x12   18       Mic at Int       7 -> 36 -> 18
+0x12   18       Mic at Int       8 -> 35 -> 18
 0x14   20       Speaker at Int   20 -> 2
-0x19   25       Mic at Ext       8 -> 35 -> 25   8 -> 35 -> 29 (backup)
+0x19   25       Mic at Ext       9 -> 34 -> 25
 0x21   33       HP Out at Ext    33 -> 3
 
 

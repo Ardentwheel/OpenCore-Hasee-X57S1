@@ -13,7 +13,8 @@
 
 ### Functionality
  - [x] CPU Speedstep (XCPM)
- - [x] Audio (Only right channel worked, reqiuer more work )
+ - [x] [4CH Audio] (4 Speaker )
+ - [ ] Headphone
  - [ ] HDMI (Video And Audio)
  - [x] Battery Management
  - [x] Backlight
@@ -24,6 +25,7 @@
  - [x] Fn Brightness Keys
  - [x] I2C Touchpad (Polling Mode) (IPIC IRQ 2 Disable)
  - [x] Usb (Built In)
+ - [ ] Thunderbolt 3
  - [ ] Sleep From (Fn Key)
  - [ ] Sleep From (Lid)
  - [ ] Wake Up (Usb Device)(Can not wake when lid have been closed)
@@ -36,13 +38,10 @@
  1. Copy EFI folder to ESP/EFI Partition in bootable USB flash drive.
  2. Install Mac OS X.
  3. Copy EFI folder to ESP/EFI Partition in HDD/SSD disk.
- 4. https://github.com/zxystd/HeliPort
+ 4. [HeliPort] for AX 201
  5. [Modify BIOS For Advanced Setting] (Possible Collapse BIOS, IF YOU NOT DO IT RIGHT)
  6. Disable CFG Lock, Change DVMT to 128MB, And Disable CFG Fix in config.plist
 
-#### A Lesson
- > DSDT order matters, A LOT!!!!
- Try all the layout, ever build my own layout-id, from HPET Fix, HPAS rename, to imitate  Cannon Point-LP Audio Controller. Try everythink, anythink, still no sound. so i went out to other work, i reorder the DSDT loading sequence, then I'm reboot to test, it magically has sound!!! I just wanna cry!
 
 ### Tools
   - [HeliPort]
@@ -69,3 +68,6 @@
 [Maciasl]: <https://sourceforge.net/projects/maciasl/>
 [DarwinDumper]: <https://bitbucket.org/blackosx/darwindumper>
 [BootDiskUtility]: <http://cvad-mac.narod.ru/>
+
+[Modify BIOS For Advanced Setting]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/tree/master/Tools/BIOS>
+[4CH Audio]: <https://github.com/acidanthera/AppleALC/pull/601>

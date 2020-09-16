@@ -2327,36 +2327,6 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>Ardentwheel - Realtek ALC256 (3246) - Hasee X57S1</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccEAEnHAEBJxymAScckAE3HPABNx0AATce
-					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgGH
-					HPABhx0AAYceAAGHH0ABlxwgAZcdkAGXHosB
-					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
-					AbceAAG3H0AB1xxCAdcdAQHXHhcB1x+QAecc
-					8AHnHQAB5x4AAecfQAIXHFACFx1AAhceKwIX
-					HwICFwwC
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>12</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
 					<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series</string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
@@ -2464,6 +2434,36 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>17</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAICFwwC
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Ardentwheel - Realtek ALC256 (3246) for Hasee X57S1 with 4CH</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAFHDAIBtxwSAbcd
+					AQG3HhcBtx+QAbcMAgIXHCACFx1AAhceKwIX
+					HwICFwwCASccMAEnHAEBJxymAScckAGXHEAB
+					lx2QAZceiwGXHwIBNxzwATcdAAE3HgABNx9A
+					AYcc8AGHHQABhx4AAYcfQAGnHPABpx0AAace
+					AAGnH0AB1xzwAdcdAAHXHgAB1x9AAecc8AHn
+					HQAB5x4AAecfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAgG3DAICFwwC
