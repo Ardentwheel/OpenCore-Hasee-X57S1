@@ -33,7 +33,7 @@
  - [x] SDHC CardReader
 
 
-#### How To Use
+### How To Use
  1. Copy EFI folder to ESP/EFI Partition in bootable USB flash drive.
  2. Install Mac OS X.
  3. Copy EFI folder to ESP/EFI Partition in HDD/SSD disk.
