@@ -740,9 +740,11 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AABSig==</data>
+				<data>AgBcig==</data>
 				<key>igfxfw</key>
 				<data>AgAAAA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel Iris Plus Graphics G7</string>
 				<key>enable-cdclk-frequency-fix</key>

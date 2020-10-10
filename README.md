@@ -23,13 +23,12 @@
  - [x] Bluetooth
  - [x] Backlight
  - [x] Fn Brightness Keys
- - [x] I2C Touchpad (GPIO Mode) (IPIC IRQ 2 Disable)(Big Thanks to [ben9923])
+ - [x] I2C Touchpad (GPIO Mode) (IPIC IRQ 2 Disable) (Big Thanks to [ben9923])
+ - [x] Sleep From (Lid)
  - [x] Sleep From (Fn+Esc Key)
- - [ ] Sleep From (Lid)
- - [ ] Wake Up (Usb Device)(Can not wake when lid have been closed)
- - [ ] Wake Up (PS/2 Keyboard)
- - [ ] Wake Up (Lid)
- - [ ] Power Nap
+ - [ ] Wake Up (Usb Device)
+ - [x] Wake Up (PS/2 Keyboard) (Big Thanks to [m0d16l14n1])
+ - [x] Wake Up (Lid)
  - [x] WebCam
  - [x] SDHC CardReader
 
