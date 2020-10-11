@@ -1,5 +1,5 @@
-    Field (GNVS, AnyAcc, Lock, Preserve)
-    {
+Field (GNVS, AnyAcc, Lock, Preserve)
+{
         OSYS,   16, 
         Offset (0x203), 
 // 203        XHPR,   8, 
