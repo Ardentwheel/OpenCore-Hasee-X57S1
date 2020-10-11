@@ -1,0 +1,92 @@
+32:611  0:065  Found UEFI Acpi 2.0 RSDP at %p
+32:612  0:000  Saving ACPI tables from RSDP %p to Âçí‚ÅÑÂëê‚Åí‰ÜÆ‰Öå‰≠ì…Å‚éîÊ©£$ ...
+32:612  0:000   %p: 'RSD PTR ÆALASKAî#cj$', Rev: 1674620375 (Acpi 2.0 or newer), Len: 36
+32:612  0:000    (Xsdt: %p, Rsdt: %p)
+32:612  0:000    %p: 'XSDT‹', 'XSDT', Rev: 1674620199, Len: 1
+32:612  0:000    %p: 'RSDTÄ', 'RSDT', Rev: 1674620199, Len: 1
+32:612  0:000    Tables in Xsdt: 23
+32:612  0:000    0. %p: 'FACP', 'FACP', Rev: 1674620199, Len: 6
+32:612  0:000        (Dsdt: 6A5F5000, Facs: 6A6E8000, XDsdt: 6a5f5000, XFacs: 0)
+32:612  0:000        %p: 'DSDTÜÉ', 'DSDT', Rev: 1674620055, Len: 2
+32:615  0:003        %p: 'FACS@', Ver: 1674620219, Len: 2
+32:615  0:000    1. %p: 'MCFG<', 'MCFG', Rev: 1674620199, Len: 1
+32:615  0:000    2. %p: 'SSDTa', 'SSDT', Rev: 1674620199, Len: 2
+32:615  0:000    3. %p: 'FPDTD', 'FPDT', Rev: 1674620199, Len: 1
+32:615  0:000    4. %p: 'FIDTú', 'FIDT', Rev: 1674620199, Len: 1
+32:615  0:000    5. %p: 'MSDMU', 'MSDM', Rev: 1674620199, Len: 3
+32:615  0:000    6. %p: 'SSDT„3', 'SSDT', Rev: 1674620199, Len: 2
+32:615  0:000    7. %p: 'SSDTz≤', 'SSDT', Rev: 1674620199, Len: 2
+32:615  0:000    8. %p: 'HPET8', 'HPET', Rev: 1674620199, Len: 1
+32:615  0:000    9. %p: 'SSDT3	', 'SSDT', Rev: 1674620199, Len: 2
+32:615  0:000    10. %p: 'SSDT`', 'SSDT', Rev: 1674620199, Len: 2
+32:615  0:000    11. %p: 'NHLTq', 'NHLT', Rev: 1674620199, Len: 0
+32:615  0:000    12. %p: 'LPITî', 'LPIT', Rev: 1674620199, Len: 1
+32:615  0:000    13. %p: 'SSDT '', 'SSDT', Rev: 1674620199, Len: 2
+32:615  0:000    14. %p: 'SSDTª', 'SSDT', Rev: 1674620199, Len: 2
+32:615  0:000    15. %p: 'DBGP4', 'DBGP', Rev: 1674620199, Len: 1
+32:615  0:000    16. %p: 'DBG2T', 'DBG2', Rev: 1674620199, Len: 0
+32:615  0:000    17. %p: 'DMAR∞', 'DMAR', Rev: 1674620199, Len: 2
+32:615  0:000    18. %p: 'SSDTD', 'SSDT', Rev: 1674620199, Len: 2
+32:615  0:000    19. %p: 'TPM2L', 'TPM2', Rev: 1674620199, Len: 4
+32:615  0:000    20. %p: 'BGRT8', 'BGRT', Rev: 1674620199, Len: 1
+32:615  0:000    21. %p: 'WSMT(', 'WSMT', Rev: 1674620199, Len: 1
+32:615  0:000    22. %p: 'APICº', 'APIC', Rev: 1674620199, Len: 4
+32:615  0:000    Tables in Rsdt: 23
+32:615  0:000    0. %p: 'FACP', 'FACP', Rev: 1674620199, Len: 6
+32:615  0:000        (Dsdt: 6A5F5000, Facs: 6A6E8000, XDsdt: 6a5f5000, XFacs: 0)
+32:615  0:000        %p: 'DSDTÜÉ', 'DSDT', Rev: 1674620055, Len: 2
+32:619  0:004        %p: 'FACS@', Ver: 1674620219, Len: 2
+32:619  0:000    1. %p: 'MCFG<', 'MCFG', Rev: 1674620199, Len: 1
+32:619  0:000    2. %p: 'SSDTa', 'SSDT', Rev: 1674620199, Len: 2
+32:619  0:000    3. %p: 'FPDTD', 'FPDT', Rev: 1674620199, Len: 1
+32:620  0:000    4. %p: 'FIDTú', 'FIDT', Rev: 1674620199, Len: 1
+32:620  0:000    5. %p: 'MSDMU', 'MSDM', Rev: 1674620199, Len: 3
+32:620  0:000    6. %p: 'SSDT„3', 'SSDT', Rev: 1674620199, Len: 2
+32:620  0:000    7. %p: 'SSDTz≤', 'SSDT', Rev: 1674620199, Len: 2
+32:620  0:000    8. %p: 'HPET8', 'HPET', Rev: 1674620199, Len: 1
+32:620  0:000    9. %p: 'SSDT3	', 'SSDT', Rev: 1674620199, Len: 2
+32:620  0:000    10. %p: 'SSDT`', 'SSDT', Rev: 1674620199, Len: 2
+32:620  0:000    11. %p: 'NHLTq', 'NHLT', Rev: 1674620199, Len: 0
+32:620  0:000    12. %p: 'LPITî', 'LPIT', Rev: 1674620199, Len: 1
+32:620  0:000    13. %p: 'SSDT '', 'SSDT', Rev: 1674620199, Len: 2
+32:620  0:000    14. %p: 'SSDTª', 'SSDT', Rev: 1674620199, Len: 2
+32:620  0:000    15. %p: 'DBGP4', 'DBGP', Rev: 1674620199, Len: 1
+32:620  0:000    16. %p: 'DBG2T', 'DBG2', Rev: 1674620199, Len: 0
+32:620  0:000    17. %p: 'DMAR∞', 'DMAR', Rev: 1674620199, Len: 2
+32:620  0:000    18. %p: 'SSDTD', 'SSDT', Rev: 1674620199, Len: 2
+32:620  0:000    19. %p: 'TPM2L', 'TPM2', Rev: 1674620199, Len: 4
+32:620  0:000    20. %p: 'BGRT8', 'BGRT', Rev: 1674620199, Len: 1
+32:620  0:000    21. %p: 'WSMT(', 'WSMT', Rev: 1674620199, Len: 1
+32:620  0:000    22. %p: 'APICº', 'APIC', Rev: 1674620199, Len: 4
+32:620  0:000  Found UEFI Acpi 1.0 RSDP at %p
+32:620  0:000  Printing ACPI tables from RSDP %p ...
+32:620  0:000   %p: 'RSD PTR GALASKA', Rev: 1674620375 (Acpi 1.0), Len: 20
+32:620  0:000    (Rsdt: %p)
+32:620  0:000    %p: 'RSDTÄ', 'RSDT', Rev: 1674620199, Len: 1
+32:620  0:000    Tables in Rsdt: 23
+32:620  0:000    0. %p: 'FACP', 'FACP', Rev: 1674620199, Len: 6
+32:620  0:000        (Dsdt: 6A5F5000, Facs: 6A6E8000, XDsdt: 6a5f5000, XFacs: 0)
+32:620  0:000        %p: 'DSDTÜÉ', 'DSDT', Rev: 1674620055, Len: 2
+32:623  0:003        %p: 'FACS@', Ver: 1674620219, Len: 2
+32:623  0:000    1. %p: 'MCFG<', 'MCFG', Rev: 1674620199, Len: 1
+32:623  0:000    2. %p: 'SSDTa', 'SSDT', Rev: 1674620199, Len: 2
+32:623  0:000    3. %p: 'FPDTD', 'FPDT', Rev: 1674620199, Len: 1
+32:623  0:000    4. %p: 'FIDTú', 'FIDT', Rev: 1674620199, Len: 1
+32:623  0:000    5. %p: 'MSDMU', 'MSDM', Rev: 1674620199, Len: 3
+32:623  0:000    6. %p: 'SSDT„3', 'SSDT', Rev: 1674620199, Len: 2
+32:623  0:000    7. %p: 'SSDTz≤', 'SSDT', Rev: 1674620199, Len: 2
+32:623  0:000    8. %p: 'HPET8', 'HPET', Rev: 1674620199, Len: 1
+32:623  0:000    9. %p: 'SSDT3	', 'SSDT', Rev: 1674620199, Len: 2
+32:623  0:000    10. %p: 'SSDT`', 'SSDT', Rev: 1674620199, Len: 2
+32:623  0:000    11. %p: 'NHLTq', 'NHLT', Rev: 1674620199, Len: 0
+32:623  0:000    12. %p: 'LPITî', 'LPIT', Rev: 1674620199, Len: 1
+32:623  0:000    13. %p: 'SSDT '', 'SSDT', Rev: 1674620199, Len: 2
+32:623  0:000    14. %p: 'SSDTª', 'SSDT', Rev: 1674620199, Len: 2
+32:623  0:000    15. %p: 'DBGP4', 'DBGP', Rev: 1674620199, Len: 1
+32:623  0:000    16. %p: 'DBG2T', 'DBG2', Rev: 1674620199, Len: 0
+32:623  0:000    17. %p: 'DMAR∞', 'DMAR', Rev: 1674620199, Len: 2
+32:623  0:000    18. %p: 'SSDTD', 'SSDT', Rev: 1674620199, Len: 2
+32:623  0:000    19. %p: 'TPM2L', 'TPM2', Rev: 1674620199, Len: 4
+32:623  0:000    20. %p: 'BGRT8', 'BGRT', Rev: 1674620199, Len: 1
+32:623  0:000    21. %p: 'WSMT(', 'WSMT', Rev: 1674620199, Len: 1
+32:623  0:000    22. %p: 'APICº', 'APIC', Rev: 1674620199, Len: 4
