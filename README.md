@@ -59,6 +59,7 @@
 * Collaborateur [m0d16l14n1]
 * I2C Touchpad Helper [ben9923] & [zhen-zen]
 * [OC-little]
+* AppleALC patch for Ice Lake and help [fewtarius] 
 
 
 [Geekbench Score]:<https://browser.geekbench.com/v5/cpu/3534153>
