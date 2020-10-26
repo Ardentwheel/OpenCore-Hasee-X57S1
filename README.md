@@ -56,11 +56,12 @@
 
 
 ### Thanks
+* To all of [acidanthera] and [dortania] team members for all of their kexts/guides and etc 
 * Collaborateur [m0d16l14n1]
 * I2C Touchpad Helper [ben9923] & [zhen-zen]
 * [OC-little]
 * AppleALC patch for Ice Lake and help [fewtarius] 
-
+* [0xFireWolf] for multiple Ice Lake fixes
 
 [Geekbench Score]:<https://browser.geekbench.com/v5/cpu/3534153>
 [OpenCL Score]:<https://browser.geekbench.com/v5/compute/1430453>
@@ -80,3 +81,6 @@
 [zhen-zen]: <https://github.com/zhen-zen>
 [OC-little]: <https://github.com/daliansky/OC-little>
 [fewtarius]: <https://github.com/fewtarius>
+[acidanthera]: <https://github.com/acidanthera>
+[dortania]: <https://github.com/dortania>
+[0xFireWolf]: <https://github.com/0xFireWolf>
