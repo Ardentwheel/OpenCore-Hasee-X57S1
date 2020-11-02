@@ -1,0 +1,1 @@
+AfuEfix64.efi IN1V105_Hasee.rom /P /B /N /R /CAPSULE
