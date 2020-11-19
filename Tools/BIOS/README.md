@@ -4,6 +4,8 @@
  3. [Modify AMITSE](#modify-amitse)
  4. [Merge](#merge)
  5. [Flash BIOS](#flash-bios)
+ 6. [Modified BIOS Firmware Download](#modified-bios-firmware-download)
+ 7. [Thanks](#thanks)
 
 ---
 
@@ -62,6 +64,19 @@
  FPTW64.exe -f bios_all_new.rom -bios
 ```
 
+---
+
+## [Modified BIOS Firmware Download](#modified-bios-firmware-download)
+
+#### 1.Modified Advanced Setting
+[IN1V105_Hasee-Advanced.rom]
+#### 2.Modified Advanced Setting & Updated GOP Driver
+[IIN1V105_Hasee-Advanced-GOP.rom]
+
+> ## [Thanks](#thanks)
+> [m0d16l14n1] For uploading IN1V105 firmware.
+
+
 
 [UEFITool]:<https://github.com/LongSoft/UEFITool/releases>
 [HexFiend]:<https://ridiculousfish.com/hexfiend/>
@@ -73,3 +88,8 @@
 [Modified-img]: img/Modified.png
 [Attention-img]: img/Attention.png
 [Replace-img]: img/Replace.png
+
+[IN1V105_Hasee-Advanced.rom]: firmware/IN1V105_Hasee-Advanced.rom
+[IIN1V105_Hasee-Advanced-GOP.rom]: firmware/IIN1V105_Hasee-Advanced-GOP.rom
+
+[m0d16l14n1]:<https://github.com/m0d16l14n1>
