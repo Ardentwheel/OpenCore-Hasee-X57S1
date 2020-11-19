@@ -70,11 +70,17 @@
 
 #### 1.Modified Advanced Setting
 [IN1V105_Hasee-Advanced.rom]
-#### 2.Modified Advanced Setting & Updated GOP Driver
-[IIN1V105_Hasee-Advanced-GOP.rom]
+#### 2.Modified Advanced Setting & Updated GOPDriver & vbt
+[IIN1V105_Hasee-Advanced-GOP-vbt.rom]
 
-> ## [Thanks](#thanks)
-> [m0d16l14n1] For uploading IN1V105 firmware.
+> Intel GopDriver v14.0.1039 for IceLake CPU Graphics Adapters
+Intel vbt v230 for IceLake CPU Graphics Adapters
+from [Phoenix48]
+(Use at your own risk)
+
+
+## [Thanks](#thanks)
+[m0d16l14n1] For uploading IN1V105 firmware.
 
 
 
@@ -82,6 +88,7 @@
 [HexFiend]:<https://ridiculousfish.com/hexfiend/>
 [Intel Management Engine]:<https://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html>
 [Intel CSME System Tools]:<https://mega.nz/file/GMlyCCLa#j2EG3Pzj3ooa9q6bunec-Zr4RzYNWU5urgFNRk3uHU4>
+[Phoenix48]:<https://www.win-raid.com/t5360f13-EFI-LAN-BIOS-Intel-GopDriver-modules.html>
 
 [UEFITool-img]: img/UEFITool.png
 [Original-img]: img/Original.png
@@ -90,6 +97,6 @@
 [Replace-img]: img/Replace.png
 
 [IN1V105_Hasee-Advanced.rom]: firmware/IN1V105_Hasee-Advanced.rom
-[IIN1V105_Hasee-Advanced-GOP.rom]: firmware/IIN1V105_Hasee-Advanced-GOP.rom
+[IIN1V105_Hasee-Advanced-GOP-vbt.rom]: firmware/IIN1V105_Hasee-Advanced-GOP-vbt.rom
 
 [m0d16l14n1]:<https://github.com/m0d16l14n1>
