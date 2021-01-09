@@ -14,10 +14,11 @@
 ### Functionality
  - [x] CPU Speedstep (XCPM)
  - [x] Intel Iris Plus Graphics G7
+ - [ ] HiDPI
  - [x] Backlight
  - [x] Fn Brightness Keys
  - [ ] HDMI (Video And Audio)
- - [x] Internal Speaker [4CH Audio] (4 Speaker)
+ - [x] Internal Speaker [4CH Audio]
  - [ ] Headphone
  - [x] Battery Management
  - [x] Usb (Built In)
