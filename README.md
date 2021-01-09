@@ -1,12 +1,13 @@
 # OpenCore For Hasee KingBook X57S1
 
- - OpenCore 0.6.1
+ - OpenCore 0.6.5
  - Intel Core i7-1065G7
- - Hasee HINS02   ( Intel 495 Series Chipset, Intel Ice Point-LP, Intel Ice Lake-U )
- - Memory 8 GB DDR4-2666 x2
+ - Hasee HINS02 ( Intel 495 Series Chipset, Intel Ice Point-LP, Intel Ice Lake-U )
+ - Crucial 8 GB DDR4-2666 x2
  - Realtek ALC256
  - Intel(R) Wi-Fi 6 AX201 160MHz
  - BOEhydis NV156FHM-N61 [15.6" LCD]
+ - Hantick I2C Touchpad HTIX5288
  - [Geekbench Score] / [OpenCL Score] / [Metal Score]
 
 ---
@@ -20,14 +21,14 @@
  - [ ] HDMI (Video And Audio)
  - [x] Internal Speaker [4CH Audio]
  - [ ] Headphone
- - [x] Battery Management
  - [x] Usb (Built In)
  - [x] USB-C Charge
  - [x] USB-C To HDMI Adapter
  - [ ] Thunderbolt 3
- - [x] Wireless Network (AX201)
- - [x] Bluetooth
- - [x] I2C Touchpad (GPIO Mode) (IPIC IRQ 2 Disable) (Big Thanks to [ben9923])
+ - [x] [Wireless Network] (AX201)
+ - [x] [Bluetooth] (0x8087, 0x0026)
+ - [x] Battery Management
+ - [x] [I2C Touchpad] (GPIO Mode) (IPIC IRQ 2 Disable) (Big Thanks to [ben9923])
  - [ ] I2C Touchpad Wake-Up
  - [x] Sleep From (Lid) (Big Thanks to [kasti0])
  - [x] Sleep From (Fn+Esc Key)
@@ -79,6 +80,10 @@
 [Maciasl]: <https://sourceforge.net/projects/maciasl/>
 [DarwinDumper]: <https://bitbucket.org/blackosx/darwindumper>
 [BootDiskUtility]: <http://cvad-mac.narod.ru/>
+
+[Wireless Network]: <https://github.com/OpenIntelWireless/itlwm>
+[Bluetooth]: <https://github.com/OpenIntelWireless/IntelBluetoothFirmware>
+[I2C Touchpad]: <https://github.com/VoodooI2C/VoodooI2C>
 
 [Modify BIOS For Advanced Setting]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/tree/master/Tools/BIOS>
 [4CH Audio]: <https://github.com/acidanthera/AppleALC/pull/601>
