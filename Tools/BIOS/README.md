@@ -74,8 +74,10 @@
 [IIN1V105_Hasee-Advanced-GOP-vbt.rom]
 
 > Intel GopDriver v14.0.1039 for IceLake CPU Graphics Adapters
-Intel vbt v230 for IceLake CPU Graphics Adapters
-from [Phoenix48]
+
+> Intel vbt v230 for IceLake CPU Graphics Adapters
+
+> From [Phoenix48]
 (Use at your own risk)
 
 
