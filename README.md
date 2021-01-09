@@ -28,9 +28,9 @@
  - [x] [Wireless Network] (AX201)
  - [x] [Bluetooth] (0x8087, 0x0026)
  - [x] Battery Management
- - [x] [I2C Touchpad] (GPIO Mode) (IPIC IRQ 2 Disable) (Big Thanks to [ben9923])
- - [ ] I2C Touchpad Wake-Up
- - [x] Sleep From (Lid) (Big Thanks to [kasti0])
+ - [x] [I2C Touchpad] (GPIO Mode) (IPIC IRQ 2 Disable) (Big Thanks to [ben9923], [zhen-zen])
+ - [x] I2C Touchpad Wake-Up (Big Thanks to [m0d16l14n1], [zhen-zen]) [#2]
+ - [x] Sleep From (Lid) (Big Thanks to [kasti0]) [#7]
  - [x] Sleep From (Fn+Esc Key)
  - [x] Wake-Up (Lid)
  - [x] Wake-Up (PS/2 Keyboard) (Big Thanks to [m0d16l14n1])
@@ -87,6 +87,8 @@
 
 [Modify BIOS For Advanced Setting]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/tree/master/Tools/BIOS>
 [4CH Audio]: <https://github.com/acidanthera/AppleALC/pull/601>
+[#2]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/2>
+[#7]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/7>
 
 [ben9923]: <https://github.com/ben9923>
 [m0d16l14n1]: <https://github.com/m0d16l14n1>
@@ -97,3 +99,4 @@
 [dortania]: <https://github.com/dortania>
 [0xFireWolf]: <https://github.com/0xFireWolf>
 [kasti0]: <https://github.com/kasti0>
+
