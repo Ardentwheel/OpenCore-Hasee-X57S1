@@ -13,24 +13,29 @@
 
 ### Functionality
  - [x] CPU Speedstep (XCPM)
- - [x] [4CH Audio] (4 Speaker )
- - [ ] Headphone
+ - [x] Intel Iris Plus Graphics G7
+ - [x] Backlight
+ - [x] Fn Brightness Keys
  - [ ] HDMI (Video And Audio)
+ - [x] Internal Speaker [4CH Audio] (4 Speaker)
+ - [ ] Headphone
  - [x] Battery Management
  - [x] Usb (Built In)
+ - [x] USB-C Charge
+ - [x] USB-C To HDMI Adapter
  - [ ] Thunderbolt 3
  - [x] Wireless Network (AX201)
  - [x] Bluetooth
- - [x] Backlight
- - [x] Fn Brightness Keys
  - [x] I2C Touchpad (GPIO Mode) (IPIC IRQ 2 Disable) (Big Thanks to [ben9923])
- - [x] Sleep From (Lid)
+ - [ ] I2C Touchpad Wake-Up
+ - [x] Sleep From (Lid) (Big Thanks to [kasti0])
  - [x] Sleep From (Fn+Esc Key)
- - [ ] Wake Up (Usb Device)
- - [x] Wake Up (PS/2 Keyboard) (Big Thanks to [m0d16l14n1])
- - [x] Wake Up (Lid)
+ - [x] Wake-Up (Lid)
+ - [x] Wake-Up (PS/2 Keyboard) (Big Thanks to [m0d16l14n1])
+ - [ ] Wake-Up (Usb Device)
  - [x] WebCam
- - [x] SDHC CardReader
+ - [ ] SDHC CardReader
+
 
 
 ### How To Use
@@ -62,6 +67,7 @@
 * [OC-little]
 * AppleALC patch for Ice Lake and help [fewtarius] 
 * [0xFireWolf] for multiple Ice Lake fixes
+* Lid fix for [kasti0]
 
 [Geekbench Score]:<https://browser.geekbench.com/v5/cpu/3534153>
 [OpenCL Score]:<https://browser.geekbench.com/v5/compute/1430453>
@@ -84,3 +90,4 @@
 [acidanthera]: <https://github.com/acidanthera>
 [dortania]: <https://github.com/dortania>
 [0xFireWolf]: <https://github.com/0xFireWolf>
+[kasti0]: <https://github.com/kasti0>
