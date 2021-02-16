@@ -1,6 +1,6 @@
 # OpenCore For Hasee KingBook X57S1
 
- - OpenCore 0.6.5
+ - OpenCore 0.6.6
  - Intel Core i7-1065G7
  - Hasee HINS02 ( Intel 495 Series Chipset, Intel Ice Point-LP, Intel Ice Lake-U )
  - Crucial 8 GB DDR4-2666 x2
@@ -20,7 +20,7 @@
  - [x] Fn Brightness Keys
  - [ ] HDMI (Video And Audio)
  - [x] Internal Speaker [4CH Audio]
- - [ ] Headphone
+ - [x] Headphone (Big Thanks to [m0d16l14n1], [agasecond]) [#3]
  - [x] Usb (Built In)
  - [x] USB-C Charge
  - [x] USB-C To HDMI Adapter
@@ -28,8 +28,9 @@
  - [x] [Wireless Network] (AX201)
  - [x] [Bluetooth] (0x8087, 0x0026)
  - [x] Battery Management
- - [x] [I2C Touchpad] (GPIO Mode) (IPIC IRQ 2 Disable) (Big Thanks to [ben9923], [zhen-zen])
+ - [x] [I2C Touchpad] (GPIO Mode) (Big Thanks to [ben9923], [zhen-zen])
  - [x] I2C Touchpad Wake-Up (Big Thanks to [m0d16l14n1], [zhen-zen]) [#2]
+ - [x] I2C Touchpad reboot from Windows (Big Thanks to [m0d16l14n1], [ben9923]) [#442]
  - [x] Sleep From (Lid) (Big Thanks to [kasti0]) [#7]
  - [x] Sleep From (Fn+Esc Key)
  - [x] Wake-Up (Lid)
@@ -88,7 +89,10 @@
 [Modify BIOS For Advanced Setting]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/tree/master/Tools/BIOS>
 [4CH Audio]: <https://github.com/acidanthera/AppleALC/pull/601>
 [#2]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/2>
+[#3]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/3#issuecomment-765060946>
 [#7]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/7>
+[#442]: <https://github.com/VoodooI2C/VoodooI2C/issues/442>
+
 
 [ben9923]: <https://github.com/ben9923>
 [m0d16l14n1]: <https://github.com/m0d16l14n1>
@@ -99,4 +103,4 @@
 [dortania]: <https://github.com/dortania>
 [0xFireWolf]: <https://github.com/0xFireWolf>
 [kasti0]: <https://github.com/kasti0>
-
+[agasecond]: <https://github.com/agasecond>
