@@ -15,12 +15,12 @@
 ### Functionality
  - [x] CPU Speedstep (XCPM)
  - [x] Intel Iris Plus Graphics G7
- - [ ] HiDPI
+ - [x] HiDPI (Big Thanks to [m0d16l14n1]) [#3-791975322]
  - [x] Backlight
  - [x] Fn Brightness Keys
  - [ ] HDMI (Video And Audio)
  - [x] Internal Speaker [4CH Audio]
- - [x] Headphone (Big Thanks to [m0d16l14n1], [agasecond]) [#3]
+ - [x] Headphone (Big Thanks to [m0d16l14n1], [agasecond]) [#3-765060946]
  - [x] Usb (Built In)
  - [x] USB-C Charge
  - [x] USB-C To HDMI Adapter
@@ -89,7 +89,8 @@
 [Modify BIOS For Advanced Setting]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/tree/master/Tools/BIOS>
 [4CH Audio]: <https://github.com/acidanthera/AppleALC/pull/601>
 [#2]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/2>
-[#3]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/3#issuecomment-765060946>
+[#3-765060946]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/3#issuecomment-765060946>
+[#3-791975322]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/3#issuecomment-791975322>
 [#7]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/7>
 [#442]: <https://github.com/VoodooI2C/VoodooI2C/issues/442>
 
