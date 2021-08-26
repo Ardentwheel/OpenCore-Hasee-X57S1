@@ -1,6 +1,6 @@
 # OpenCore For Hasee KingBook X57S1
 
- - OpenCore 0.6.6
+ - OpenCore 0.7.2
  - Intel Core i7-1065G7
  - Hasee HINS02 ( Intel 495 Series Chipset, Intel Ice Point-LP, Intel Ice Lake-U )
  - Crucial 8 GB DDR4-2666 x2
@@ -8,6 +8,7 @@
  - Intel(R) Wi-Fi 6 AX201 160MHz
  - BOEhydis NV156FHM-N61 [15.6" LCD]
  - Hantick I2C Touchpad HTIX5288
+ - Realtek RTS5129 USB 2.0 Card Reader
  - [Geekbench Score] / [OpenCL Score] / [Metal Score]
 
 ---
@@ -37,7 +38,7 @@
  - [x] Wake-Up (PS/2 Keyboard) (Big Thanks to [m0d16l14n1])
  - [ ] Wake-Up (Usb Device)
  - [x] WebCam
- - [ ] SDHC CardReader
+ - [x] [Card Reader] (Big Thanks to [0xFireWolf], [m0d16l14n1]) [#8]
 
 
 
@@ -85,6 +86,7 @@
 [Wireless Network]: <https://github.com/OpenIntelWireless/itlwm>
 [Bluetooth]: <https://github.com/OpenIntelWireless/IntelBluetoothFirmware>
 [I2C Touchpad]: <https://github.com/VoodooI2C/VoodooI2C>
+[Card Reader]: <https://github.com/0xFireWolf/RealtekCardReader>
 
 [Modify BIOS For Advanced Setting]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/tree/master/Tools/BIOS>
 [4CH Audio]: <https://github.com/acidanthera/AppleALC/pull/601>
@@ -92,6 +94,7 @@
 [#3-765060946]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/3#issuecomment-765060946>
 [#3-791975322]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/3#issuecomment-791975322>
 [#7]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/7>
+[#8]: <https://github.com/Ardentwheel/OpenCore-Hasee-X57S1/issues/8>
 [#442]: <https://github.com/VoodooI2C/VoodooI2C/issues/442>
 
 
